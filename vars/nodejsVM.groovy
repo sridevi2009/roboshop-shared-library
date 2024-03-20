@@ -55,7 +55,7 @@ def call(Map configMap){
             stage('sonar scan') {
                 steps {
                     sh """
-                        #sonar-scanner
+                        echo "usually command here is sonar scan"
                         echo "sonar scan will run here"
                     """
                 }
